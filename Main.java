@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -8,7 +7,7 @@ public class Main {
         System.out.println("это калькулятор. выбурите действие (+, -, *, /)");
         String action = scanner.nextLine();
 
-        System.out.println("введите первое число:");
+        System.out.println("введите 1 число:");
         String firstArg = scanner.nextLine();
 
         System.out.println("введите второе число:");

@@ -4,7 +4,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Calculator calculator = new Calculator();
 
-        System.out.println("это калькулятор. выбурите действие (+, -, *, /)");
+        System.out.println("это калькулятор1. выбурите действие (+, -, *, /)");
         String action = scanner.nextLine();
 
         System.out.println("введите 1 число:");
